@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"my-mcp-server-23af4bc6": {
+			"url": "https://gitmcp.io/007aneesh/HLD-CHAT-APP",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
