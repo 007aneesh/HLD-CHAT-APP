@@ -13,7 +13,7 @@ import connectDatabase from "./config/database.config";
 // import { initializeSocket } from "./lib/socket";
 // import routes from "./routes";
 
-// import "./config/passport.config";
+import "./config/passport.config";
 
 const app = express();
 const server = http.createServer(app);
@@ -31,7 +31,7 @@ app.use(
     })
 );
 
-// app.use(passport.initialize());
+app.use(passport.initialize());
 
 app.get(
     "/health",
